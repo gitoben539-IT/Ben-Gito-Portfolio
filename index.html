@@ -1,92 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<main>
-  <section id="about" class="section">
-      <h2>About Me</h2>
-      <p class="about-text">
-        I am a student in the BIT/DIT Information Technology Programme at the
-        School of Computing and Emerging Technologies (SCET), Africa
-        International University. I enjoy learning how websites and software
-        are built, and I am currently learning HTML and CSS.
-      </p>
-    </section>
-    <section id="home" class="hero">
-      <h1>Hi, I'm Benedict Gitonga</h1>
-      <p>Information Technology student at Africa International University</p>
-      <a href="#projects" class="btn">View my projects</a>
-    </section>
-     
-    <section id="skills" class="section section-light">
-      <h2>My Skills</h2>
-      <div class="card-container">
-        <div class="card">
-          <h3>HTML</h3>
-          <p>Structuring web pages with headings, lists, links and forms.</p>
-        </div>
-        <div class="card">
-          <h3>CSS</h3>
-          <p>Styling pages with colours, layouts and simple animations.</p>
-        </div>
-        <div class="card">
-          <h3>Git &amp; GitHub</h3>
-          <p>Saving my code and sharing it in online repositories.</p>
-        </div>
-      </div>
-    </section>
-
-     <section id="projects" class="section">
-      <h2>My Projects</h2>
-      <div class="card-container">
-        <div class="card">
-          <h3>Portfolio Website</h3>
-          <p>This website, built with HTML and styled with CSS.</p>
-        </div>
-        <div class="card">
-          <h3>Project Two</h3>
-          <p>Replace this with a short description of another project.</p>
-        </div>
-        <div class="card">
-          <h3>Project Three</h3>
-          <p>Replace this with a short description of another project.</p>
-        </div>
-      </div>
-    </section>
- 
-     <section id="contact" class="section section-light">
-      <h2>Contact Me</h2>
-      <form class="contact-form">
-        <label for="name">Name</label>
-        <input type="text" id="name" placeholder="Your name">
- 
-        <label for="email">Email</label>
-        <input type="email" id="email" placeholder="you@example.com">
- 
-        <label for="message">Message</label>
-        <textarea id="message" rows="5" placeholder="Write your message here"></textarea>
- 
-        <button type="submit" class="btn">Send message</button>
-      </form>
-    </section>
-  </main>
-   <footer class="footer">
-    <p>&copy; 2026 Benedict Gitonga. Africa International University.</p>
-  </footer>
 <body>
-    <header class="navbar">
-    <a href="#home" class="logo">Benedict Gitonga</a>
-    <nav>
+  <nav class="navbar">
+    <h1 class="logo">Benedict Gitonga</h1>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+          <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+               <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h2>hello,i'm <span class="highlight">benedict gitonga</span></h2>
+      <p>Junior software developer</p>
+         <a href="#contact" class="btn">hire me</a>
+    </div>
+  </header>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+        <p>I am a student at africa international university pursuing a degree in computer science. i have a passion for web development and enjoy creating user-friendly and visually appealing websites.</p>
+  </section>
+
+  <section id="skills" class="section section-alternate">
+    <h2>skills</h2>
+    <div class="card">
+        <div class="card">HTML</div>
+            <div class="card">CSS</div>
+              <div class="card">JavaScript</div>
+            <div class="card">React</div>
+        <div class="card">Node.js</div>
+    </div>
+  </section>
+
+  <section id="project" class="section"> 
+    <h2>projects</h2>
+        <div class="card"> 
+          <div class="card">
+           <h3>project 1</h3>
+             <p>simple website built with html, css and javascript</p>
+          </div>
+          <div class="card">
+            <h3>project 2</h3>
+             <p>python project</p>
+          </div>
+     </div>
+  </section>
+
+  <section id="contact" class="section section-alternate">
+       <h2>contact me</h2>
+    <p>email: gitoben539@gmail.com</p>
+  </section>
+
+ <footer>
+    <p>&copy; 2026 Benedict Gitonga. All rights reserved.</p>
+  </footer>
 </body>
 </html>
