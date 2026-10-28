@@ -247,8 +247,36 @@ body {
 
 }
   
-
+.menu-toggle {
+  display: none;
+      background: none;
+          border: none;
+              font-size: 2rem;
+                  color: #d5e6ff;
+                      cursor: pointer;
+}
  
-  
+  @media (max-width: 700px) {
+    .menu-toggle {
+      display: block;
+    }
+
+    .nav-links {
+      display: none;
+          flex-direction: column;
+              gap: 1rem;
+                  width: 100%;
+                      text-align: center;
+                          background-color: #0b1f3a;
+                              position: absolute;
+                                  top: 60px;
+                                      left: 0;
+                                          padding: 1rem 0;
+                                              border-top: 1px solid #4da6ff;
+    }
+
+    .nav-links.show {
+      display: flex;
+    }
     
 
